@@ -1,19 +1,20 @@
 
 body{
-    background-color: white;
+    background-color:  white;
     font-family: Arial, Helvetica, sans-serif;
 
-}
-
-.nunito-class {
-  font-family: Arial, Helvetica, sans-serif;
 
 }
+
+
+
+/* Cabeçalho */
 
 ul{
-    background-color: black;
-    padding: 25px;
-    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 30px ;
+    margin-top: 0px;
+    
 }
 li{
     display: inline-block;
@@ -21,7 +22,8 @@ li{
 li a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 30px;
+    opacity: 1px;
 }
 li a:hover{
     background: #ccc;
@@ -34,6 +36,20 @@ li a:hover{
     float: right;
 }
 
+.menu{
+    font-weight: bold;
+    z-index: 9;
+    position: fixed;
+    width: 1600px
+    
+    
+    
+}
+
+/* Cabeçalho acaba aqui */
+
+/* Página inicial */
+
 .entrada{
     display: flex;
     flex-direction: column;
@@ -43,13 +59,13 @@ li a:hover{
     text-align: center;
     padding-top: 30px;
     font-size: 50px;
-    background-color: #188BDF;
+    background: linear-gradient(to right, #188BDF, #adddff);
     z-index: 3;
     /* background-image: url(9d33fc2fded1bbfa0c6716fcd7f3df50.jpg);
     background-size: cover; 
     background-position: center;   */
     width: 100%;
-    height: 800px;
+    height: 900px;
     
 }
 h1{
@@ -63,14 +79,15 @@ h5{
 .btn1{
     display: flex;
     justify-content: center;
-    background-color: black;
-    color: black;
-    width: 140px;
-    height: 60px;
+    align-items: center;
+    width: 160px;
+    height: 70px;
     font-size: 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     /* margin-left: 740px; */
     z-index: 3;
+    background: linear-gradient(to right, #188BDF, #adddff);
+    border: 0 ;
 
 }
 
@@ -80,10 +97,83 @@ h5{
     color: white;
 }
 
-img{
+.entrada img{
     z-index: 1;
     position: absolute;
     opacity: 0.5;
     width: 800;
     height: 100%;
 }
+
+/* Página inicial acaba aqui */
+
+/* Página o que é o Olimpo */
+
+.oque{
+    color: #188BDF;
+    width: 100%;
+    height: 800px;
+}
+
+
+
+/* Página do "o que é o Olimpo" acaba aqui */
+
+/* Sessão de "Nossos Serviços */
+
+
+.bloco{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    padding: 32px 16px;
+    border-radius: 8px;
+    margin-left:32px ;
+    box-shadow: 20px 20px 50px -30px  #188BDF ;
+
+}
+
+.servicos{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+.icon{
+    width: 64px;
+    height: 64px;
+
+}
+
+.bloco img{
+    width: 100%;
+}
+
+.btn2{
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    border-radius: 32px;
+    border: 0;
+    font-weight: bold;
+    background: linear-gradient(to right, #188BDF, #adddff);
+}
+
+.servicos h1{
+    position: absolute;
+    top: 1750px;
+    color: #188BDF;
+    font-size: 70px;
+}
+
+/* Acaba aqui "Nossos serviços" */
