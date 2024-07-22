@@ -11,7 +11,7 @@ body{
 
 /* Cabeçalho */
 
-ul{
+.menu ul{
     background-color: rgba(85,151,250, 0.5); 
     padding: 30px ;
     margin-top: 0px;
@@ -27,6 +27,13 @@ li a{
     padding: 30px;
     opacity: 1px;
 }
+
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
 li a:hover{
     background: #ccc;
     color: black;
@@ -214,3 +221,60 @@ h5{
 
 
 /* Acaba aqui "Nossos serviços" */
+
+/* Contatos  */
+
+.final{
+    background-color: #5597FA;
+    font-size: 20px;
+    height: 400px;
+    width: 100%;
+
+}
+
+.final h1{
+    text-align: center;
+    padding-top: 40px;
+}
+.contatos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.contatos a{
+    color: black;
+}
+
+.contatos ul{
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fim da parte do o que é */
+
+/* Quem Somos */
+.quemsomos{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quemsomos img{
+    padding-left: 50px;
+    width: 500px;
+    float: left;
+    box-shadow: 50px 40px 50px -20px  #188BDF ;
+    
+}
+
+.tx2{
+    padding-left: 60px;
+    padding-right: 100px;
+    width: 900px;
+}
+/* Fim da parte de quem somos */
