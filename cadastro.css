@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body {
+    background-image: url('https://media.istockphoto.com/id/157337498/pt/foto/all-street.jpg?s=2048x2048&w=is&k=20&c=uSjWPaB-Aqh-2HNFMYLyZY9ymiP7K3R-bAAAIOy8Llw=');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+} */
+
+#logo {
+    margin-top: 0px;
+}
+
+#titulo {
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+form {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 470px;
+    margin: 50px auto;
+    background-color: #5597FA;
+    border-radius: 4px;
+}
+
+label {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+input {
+    border: 2px solid;
+    border-radius: 4px;
+}

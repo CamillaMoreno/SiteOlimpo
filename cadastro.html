@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar-se</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <img src="LogoOlimpo.png" alt="" id="logo" width="200px">
+
+    <h1 id="titulo">Cadastre-se!</h1>
+
+    <form action="#">
+        <label for="nome" id="nome">
+            Nome completo
+        </label>
+        <input type="text" name="fnome" id="fnome" placeholder="Máx: 40 caracteres"
+        size="40" maxlength="40" inputmode="text" required>
+
+        <br> <br>
+
+        <label for="email" id="email">
+            E-mail:
+        </label>
+        <input type="email" name="femail" id="femail" placeholder="Insira seu email"
+        size="50" maxlength="50" inputmode="email" required>
+
+        <br><br>
+
+        <label for="senha" id="senha">
+            Senha
+        </label>
+        <input type="password" name="fsenha" id="fsenha" placeholder="Máx: 8 caracteres"
+        size="12" maxlength="8" inputmode="text" required>
+
+        <br> <br>
+
+        <label for="bairro" id="bairro">
+            Endereço
+        </label>
+        <input type="text" name="fbairro" id="fbairro" placeholder="Insira seu bairro"
+        size="50" max="50" inputmode="text" required>
+
+        <br> <br>
+
+        <label for="fnasc">Data de nascimento</label>
+        <input type="date" name="fnasc" id="fnasc" min="1900-01-01" max="2006-12-31">
+
+        <br><br>
+    </form>
+    
+</body>
+</html>
