@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    margin-top: 0px;
+}
+
+#titulo {
+    text-align: center;
+    color: #5597FA;
+    font-size: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    width: 400px;
+    height: 480px;
+    padding-bottom: 20px;
+    background-color: #5597FA;   
+   
+}
+
+
+input {
+    height: 30px;
+    width: 200px;
+    border: 0;
+
+}
+.f{
+    border-radius: 40px;
+}
+.digitacao{
+    border: 0;
+    border-radius: 10px;
+}
+
+
+label{
+    display: flex;
+    justify-content: end;
+}
